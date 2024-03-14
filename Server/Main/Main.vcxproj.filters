@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{7c2371de-2524-4c0e-8eef-a0ea66925a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Server">
+      <UniqueIdentifier>{655d2038-27ae-4db9-b3fa-175e97c27c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Database">
+      <UniqueIdentifier>{2a9353a5-23eb-4118-bb43-21bb061ffaf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\Server.cpp">
+      <Filter>Sources\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\MySQL.cpp">
+      <Filter>Sources\Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server\Server.h">
+      <Filter>Sources\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\MySQL.h">
+      <Filter>Sources\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\DatabaseConfig.h">
+      <Filter>Sources\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

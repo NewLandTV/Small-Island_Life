@@ -9,31 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c17275591b8f5747b8b77a6a4fe0a26, type: 3}
+  m_Script: {fileID: 11500000, guid: b5c2681c0a57fc64c8cc9d8f1fb3ac4d, type: 3}
   m_Name: ServerSetting
   m_EditorClassIdentifier: 
   serverConfigs:
   - id: 0
-    name: "\uB2E8\uD48D \uC232"
-  - id: 1
-    name: "\uACE0\uC694\uD55C \uB2AA"
-  - id: 2
-    name: "\uB9E4\uC9C1 \uC694\uC220"
-  - id: 3
-    name: "\uC544\uBE4C"
-  - id: 4
-    name: "\uD3EC\uADF8\uB9C8"
-  - id: 5
-    name: "\uC18C\uC644"
-  - id: 6
-    name: "\uB300\uC220\uC758 \uC9C0\uB839"
-  - id: 7
-    name: "\uB178\uCE74\uC2DC"
-  - id: 8
-    name: "\uC77C\uB85C\uBC30\uB4DC"
-  - id: 9
-    name: "\uAC00\uAC10\uAC10"
-  - id: 10
-    name: "\uC131\uBB3C \uD638\uC218"
-  - id: 304
-    name: Test Server I
+    name: Test Server
